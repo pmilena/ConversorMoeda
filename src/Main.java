@@ -9,9 +9,9 @@ public class Main {    public static void main(String[] args) throws IOException
     Scanner leitor = new Scanner(System.in);
 
     System.out.println(""" 
-            ***************************************  
+            ***************************************
             Seja bem vindo ao Conversor de Moeda =]
-                         
+            
             1- Dólar =>> Peso Argentino
             2- Peso Argentino =>> Dólar
             3- Dólar =>> Peso Boliviano
