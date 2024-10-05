@@ -14,18 +14,22 @@ public class Main {    public static void main(String[] args) throws IOException
                          
             1- Dólar =>> Peso Argentino
             2- Peso Argentino =>> Dólar
-            3- Dólar =>> Real Brasileiro
-            4- Real Brasileiro =>> Dólar
-            5- Dólar =>> Peso Colombiano
-            6- Peso Colombiano =>> Dólar
-            7- sair
+            3- Dólar =>> Peso Boliviano
+            4- Peso Boliviano =>> Dólar
+            5- Dólar =>> Real Brasileiro
+            6- Real Brasileiro =>> Dólar
+            7- Dólar =>> Peso Chileno
+            8- Peso Chileno =>> Dólar
+            9- Dólar =>> Peso Colombiano
+            10- Peso Colombiano =>> Dólar
+            11- Sair
             """);
 
-    while(choose<=0 || choose>7){
+    while(choose<=0 || choose>11){
         System.out.println("Escolha uma opção válida: ");
         System.out.println("***************************************");
         choose= leitor.nextInt();
-        if (choose>=1 & choose<7) {
+        if (choose>=1 & choose<11) {
             System.out.println("Digite o valor que deseja converter: ");
         }
         switch (choose) {
@@ -36,18 +40,30 @@ public class Main {    public static void main(String[] args) throws IOException
                 conversor.Converter("ARS", "USD", leitor.nextDouble());
                 break;
             case 3:
-                conversor.Converter("USD", "BRL", leitor.nextDouble());
+                conversor.Converter("USD", "BOB", leitor.nextDouble());
                 break;
             case 4:
-                conversor.Converter("BRL", "USD", leitor.nextDouble());
+                conversor.Converter("BOB", "USD", leitor.nextDouble());
                 break;
             case 5:
-                conversor.Converter("USD", "COL", leitor.nextDouble());
+                conversor.Converter("USD", "BRL", leitor.nextDouble());
                 break;
             case 6:
-                conversor.Converter("COL", "USD", leitor.nextDouble());
+                conversor.Converter("BRL", "USD", leitor.nextDouble());
                 break;
             case 7:
+                conversor.Converter("USD", "CLP", leitor.nextDouble());
+                break;
+            case 8:
+                conversor.Converter("CLP", "USD", leitor.nextDouble());
+                break;
+            case 9:
+                conversor.Converter("USD", "COP", leitor.nextDouble());
+                break;
+            case 10:
+                conversor.Converter("COP", "USD", leitor.nextDouble());
+                break;
+            case 11:
                 System.out.println("A aplicação foi finalizada");
                 break;
 
