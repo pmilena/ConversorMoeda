@@ -32,6 +32,7 @@ O projeto está **em desenvolvimento** e atualmente possui funcionalidades bási
 - Conversão entre Dólar e Peso Chileno
 - Conversão entre Dólar e Peso Colombiano
 - Interface amigável e fácil de usar
+- Histórico de conversão: opção para visualizar o histórico de conversões realizadas durante a sessão
 
 ## Tecnologias Utilizadas
 
