@@ -37,3 +37,33 @@ O projeto está **em desenvolvimento** e atualmente possui funcionalidades bási
 ## Tecnologias Utilizadas
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
+*****
+
+
+# Currency Converter
+
+## Project Description
+
+This project is a **Currency Converter** that allows conversion between different currencies such as US Dollar, Argentine Peso, Bolivian Peso, Brazilian Real, Chilean Peso, and Colombian Peso. The goal is to provide a practical and easy-to-use tool for users who need to convert values between these currencies.
+
+## Project Status
+
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)
+
+The project is **in development** and currently features basic conversion functionalities. New features are being planned to enhance the user experience.
+
+## Features
+
+- Conversion between US Dollar and Argentine Peso
+- Conversion between US Dollar and Bolivian Peso
+- Conversion between US Dollar and Brazilian Real
+- Conversion between US Dollar and Chilean Peso
+- Conversion between US Dollar and Colombian Peso
+- User-friendly and easy-to-use interface
+- Conversion history: option to view the conversion history during the session
+
+## Technologies Used
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
